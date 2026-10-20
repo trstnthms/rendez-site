@@ -1,9 +1,6 @@
-# Rendez support and privacy pages
+# Rendez website
 
-Static public pages for `https://trstnthms.github.io/rendez-site/`.
+Generated from [app-websites](https://github.com/trstnthms/app-websites).
+Edit content and templates there, then run `npm run publish -- rendez`.
 
-- `rendez-support/index.html`: App Store support URL
-- `rendez-privacy/index.html`: App Store privacy policy URL
-- `styles.css`: shared responsive styling
-
-Publish only this directory to the separate public `trstnthms/rendez-site` repository. GitHub Pages serves the root of its `main` branch. No build step, JavaScript, analytics, cookies or third-party assets are required. Keep the existing public paths stable.
+Existing support and privacy URLs are preserved.
